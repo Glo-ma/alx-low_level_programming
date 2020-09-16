@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-*
-* main- beginning of program
-*
-* return value = 0
+* main - beginning of program
+*Description : outputs Programming is like a multilingual puzzle on the screen
+*return:0
 */
-int main (void)
+int main(void)
+
 {
-       puts("\"Programming is like building a multilingual puzzle");
-       return(0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }

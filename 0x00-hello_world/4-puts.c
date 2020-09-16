@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - beginning of program
-*Description : outputs Programming is like a multilingual puzzle on the screen
-*return:0
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 

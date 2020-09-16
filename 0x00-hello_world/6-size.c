@@ -1,10 +1,13 @@
 #  include <sys/cdefs.h>
 #include <stdio.h>
 /**
-* main - code beginning
-*
-* Return (0)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));

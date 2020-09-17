@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
-* main - entry point
-* Return: always 0 (success)
+* main - main block
+* Return: 0
 */
 int main(void)
 {
-int c;
-for (c = 0; c <= 10; c++)
+int i;
+for (i = 0; i < 10; i++)
 {
-putchar (c);
+putchar(i + '0');
 }
-putchar ('\n');
+putchar('\n');
 return (0);
 }

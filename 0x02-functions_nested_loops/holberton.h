@@ -1,16 +1,31 @@
+#include <unistd.h>
+/**
+* _putchar - writes the character c to stdout
+* @c: The character to print
+*
+* Return: On success 1.
+ On error, -1 is returned, and errno is set appropriately.
+*/
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-int _putchar(char c);
-void print_alphabet(void);
+
+void print_alphabet(void)
+{
+char c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
+}
 void print_alphabet_x10(void);
 
-int _islower(int c)
-{
-  if (c > 96 && c < 123)
-    return (1);
-  else
-    return (0);
-}
+int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);

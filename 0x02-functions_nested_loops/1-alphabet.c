@@ -1,16 +1,21 @@
+#include <unistd.h>
 #include "holberton.h"
 /**
-*
-*main - code entry
-*return (0)
+* print_alphabet - Print alphabet in lowercase using only `_putchar`
+* Return: 0
 */
-int main (void)
+void print_alphabet(void)
 {
-char alph;
-for (alph = 'a'; alph <= 'z'; alph++)
+char c = 'a';
+while (c <= 'z')
 {
-_putchar(alph);
- }
+_putchar(c);
+c++;
+}
 _putchar('\n');
+}
+int main(void)
+{
+print_alphabet();
 return (0);
 }

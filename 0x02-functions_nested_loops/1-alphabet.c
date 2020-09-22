@@ -1,8 +1,7 @@
-#include <unistd.h>
 #include "holberton.h"
 /**
-* print_alphabet - Print alphabet in lowercase using only `_putchar`
-* Return: 0
+* print_alphabet - You are not allowed to include standard libraries.
+* Return  (0)
 */
 void print_alphabet(void)
 {
@@ -14,6 +13,11 @@ c++;
 }
 _putchar('\n');
 }
+/**
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 print_alphabet();

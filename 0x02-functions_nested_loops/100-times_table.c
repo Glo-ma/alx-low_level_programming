@@ -14,7 +14,6 @@ while (x <= n)
 for (y = 0; y <= n; y++)
 {
 z = x * y;
-}
 if (z > 99)
 {
 _putchar(z / 100 + '0');
@@ -42,6 +41,6 @@ _putchar(' ');
 }
 }
 _putchar('\n');
-x++
+x++;
 }
 }

@@ -1,0 +1,1 @@
+Scripts on more of arrays and pointers.

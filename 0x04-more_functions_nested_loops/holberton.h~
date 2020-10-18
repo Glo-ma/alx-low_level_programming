@@ -1,0 +1,6 @@
+#fndef HOLBERTON_H
+#definef HOLBERTON_H
+
+int _isupper(int c);
+
+#endif
